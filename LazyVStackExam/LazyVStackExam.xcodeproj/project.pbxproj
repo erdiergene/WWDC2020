@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		520DE3E124BD024F00D763CA /* LazyVStackExamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520DE3E024BD024F00D763CA /* LazyVStackExamApp.swift */; };
+		520DE3E324BD024F00D763CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520DE3E224BD024F00D763CA /* ContentView.swift */; };
+		520DE3E524BD025000D763CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 520DE3E424BD025000D763CA /* Assets.xcassets */; };
+		520DE3E824BD025000D763CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 520DE3E724BD025000D763CA /* Preview Assets.xcassets */; };
+		520DE3F324BD025100D763CA /* LazyVStackExamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520DE3F224BD025100D763CA /* LazyVStackExamTests.swift */; };
+		520DE3FE24BD025100D763CA /* LazyVStackExamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520DE3FD24BD025100D763CA /* LazyVStackExamUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		520DE3EF24BD025100D763CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 520DE3D524BD024F00D763CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 520DE3DC24BD024F00D763CA;
+			remoteInfo = LazyVStackExam;
+		};
+		520DE3FA24BD025100D763CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 520DE3D524BD024F00D763CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 520DE3DC24BD024F00D763CA;
+			remoteInfo = LazyVStackExam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		520DE3DD24BD024F00D763CA /* LazyVStackExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LazyVStackExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		520DE3E024BD024F00D763CA /* LazyVStackExamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVStackExamApp.swift; sourceTree = "<group>"; };
+		520DE3E224BD024F00D763CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		520DE3E424BD025000D763CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		520DE3E724BD025000D763CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		520DE3E924BD025000D763CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		520DE3EE24BD025100D763CA /* LazyVStackExamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LazyVStackExamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		520DE3F224BD025100D763CA /* LazyVStackExamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVStackExamTests.swift; sourceTree = "<group>"; };
+		520DE3F424BD025100D763CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		520DE3F924BD025100D763CA /* LazyVStackExamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LazyVStackExamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		520DE3FD24BD025100D763CA /* LazyVStackExamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVStackExamUITests.swift; sourceTree = "<group>"; };
+		520DE3FF24BD025100D763CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		520DE3DA24BD024F00D763CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520DE3EB24BD025100D763CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520DE3F624BD025100D763CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		520DE3D424BD024F00D763CA = {
+			isa = PBXGroup;
+			children = (
+				520DE3DF24BD024F00D763CA /* LazyVStackExam */,
+				520DE3F124BD025100D763CA /* LazyVStackExamTests */,
+				520DE3FC24BD025100D763CA /* LazyVStackExamUITests */,
+				520DE3DE24BD024F00D763CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		520DE3DE24BD024F00D763CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				520DE3DD24BD024F00D763CA /* LazyVStackExam.app */,
+				520DE3EE24BD025100D763CA /* LazyVStackExamTests.xctest */,
+				520DE3F924BD025100D763CA /* LazyVStackExamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		520DE3DF24BD024F00D763CA /* LazyVStackExam */ = {
+			isa = PBXGroup;
+			children = (
+				520DE3E024BD024F00D763CA /* LazyVStackExamApp.swift */,
+				520DE3E224BD024F00D763CA /* ContentView.swift */,
+				520DE3E424BD025000D763CA /* Assets.xcassets */,
+				520DE3E924BD025000D763CA /* Info.plist */,
+				520DE3E624BD025000D763CA /* Preview Content */,
+			);
+			path = LazyVStackExam;
+			sourceTree = "<group>";
+		};
+		520DE3E624BD025000D763CA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				520DE3E724BD025000D763CA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		520DE3F124BD025100D763CA /* LazyVStackExamTests */ = {
+			isa = PBXGroup;
+			children = (
+				520DE3F224BD025100D763CA /* LazyVStackExamTests.swift */,
+				520DE3F424BD025100D763CA /* Info.plist */,
+			);
+			path = LazyVStackExamTests;
+			sourceTree = "<group>";
+		};
+		520DE3FC24BD025100D763CA /* LazyVStackExamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				520DE3FD24BD025100D763CA /* LazyVStackExamUITests.swift */,
+				520DE3FF24BD025100D763CA /* Info.plist */,
+			);
+			path = LazyVStackExamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		520DE3DC24BD024F00D763CA /* LazyVStackExam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520DE40224BD025100D763CA /* Build configuration list for PBXNativeTarget "LazyVStackExam" */;
+			buildPhases = (
+				520DE3D924BD024F00D763CA /* Sources */,
+				520DE3DA24BD024F00D763CA /* Frameworks */,
+				520DE3DB24BD024F00D763CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LazyVStackExam;
+			productName = LazyVStackExam;
+			productReference = 520DE3DD24BD024F00D763CA /* LazyVStackExam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		520DE3ED24BD025100D763CA /* LazyVStackExamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520DE40524BD025100D763CA /* Build configuration list for PBXNativeTarget "LazyVStackExamTests" */;
+			buildPhases = (
+				520DE3EA24BD025100D763CA /* Sources */,
+				520DE3EB24BD025100D763CA /* Frameworks */,
+				520DE3EC24BD025100D763CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				520DE3F024BD025100D763CA /* PBXTargetDependency */,
+			);
+			name = LazyVStackExamTests;
+			productName = LazyVStackExamTests;
+			productReference = 520DE3EE24BD025100D763CA /* LazyVStackExamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		520DE3F824BD025100D763CA /* LazyVStackExamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520DE40824BD025100D763CA /* Build configuration list for PBXNativeTarget "LazyVStackExamUITests" */;
+			buildPhases = (
+				520DE3F524BD025100D763CA /* Sources */,
+				520DE3F624BD025100D763CA /* Frameworks */,
+				520DE3F724BD025100D763CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				520DE3FB24BD025100D763CA /* PBXTargetDependency */,
+			);
+			name = LazyVStackExamUITests;
+			productName = LazyVStackExamUITests;
+			productReference = 520DE3F924BD025100D763CA /* LazyVStackExamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		520DE3D524BD024F00D763CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					520DE3DC24BD024F00D763CA = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					520DE3ED24BD025100D763CA = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 520DE3DC24BD024F00D763CA;
+					};
+					520DE3F824BD025100D763CA = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 520DE3DC24BD024F00D763CA;
+					};
+				};
+			};
+			buildConfigurationList = 520DE3D824BD024F00D763CA /* Build configuration list for PBXProject "LazyVStackExam" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 520DE3D424BD024F00D763CA;
+			productRefGroup = 520DE3DE24BD024F00D763CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				520DE3DC24BD024F00D763CA /* LazyVStackExam */,
+				520DE3ED24BD025100D763CA /* LazyVStackExamTests */,
+				520DE3F824BD025100D763CA /* LazyVStackExamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		520DE3DB24BD024F00D763CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520DE3E824BD025000D763CA /* Preview Assets.xcassets in Resources */,
+				520DE3E524BD025000D763CA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520DE3EC24BD025100D763CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520DE3F724BD025100D763CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		520DE3D924BD024F00D763CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520DE3E324BD024F00D763CA /* ContentView.swift in Sources */,
+				520DE3E124BD024F00D763CA /* LazyVStackExamApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520DE3EA24BD025100D763CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520DE3F324BD025100D763CA /* LazyVStackExamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520DE3F524BD025100D763CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520DE3FE24BD025100D763CA /* LazyVStackExamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		520DE3F024BD025100D763CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 520DE3DC24BD024F00D763CA /* LazyVStackExam */;
+			targetProxy = 520DE3EF24BD025100D763CA /* PBXContainerItemProxy */;
+		};
+		520DE3FB24BD025100D763CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 520DE3DC24BD024F00D763CA /* LazyVStackExam */;
+			targetProxy = 520DE3FA24BD025100D763CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		520DE40024BD025100D763CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		520DE40124BD025100D763CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		520DE40324BD025100D763CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LazyVStackExam/Preview Content\"";
+				DEVELOPMENT_TEAM = ZPKHN9888S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LazyVStackExam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftu-.example.LazyVStackExam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		520DE40424BD025100D763CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LazyVStackExam/Preview Content\"";
+				DEVELOPMENT_TEAM = ZPKHN9888S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LazyVStackExam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftu-.example.LazyVStackExam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		520DE40624BD025100D763CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZPKHN9888S;
+				INFOPLIST_FILE = LazyVStackExamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftu-.example.LazyVStackExamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LazyVStackExam.app/LazyVStackExam";
+			};
+			name = Debug;
+		};
+		520DE40724BD025100D763CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZPKHN9888S;
+				INFOPLIST_FILE = LazyVStackExamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftu-.example.LazyVStackExamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LazyVStackExam.app/LazyVStackExam";
+			};
+			name = Release;
+		};
+		520DE40924BD025100D763CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZPKHN9888S;
+				INFOPLIST_FILE = LazyVStackExamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftu-.example.LazyVStackExamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LazyVStackExam;
+			};
+			name = Debug;
+		};
+		520DE40A24BD025100D763CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZPKHN9888S;
+				INFOPLIST_FILE = LazyVStackExamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftu-.example.LazyVStackExamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LazyVStackExam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		520DE3D824BD024F00D763CA /* Build configuration list for PBXProject "LazyVStackExam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520DE40024BD025100D763CA /* Debug */,
+				520DE40124BD025100D763CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		520DE40224BD025100D763CA /* Build configuration list for PBXNativeTarget "LazyVStackExam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520DE40324BD025100D763CA /* Debug */,
+				520DE40424BD025100D763CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		520DE40524BD025100D763CA /* Build configuration list for PBXNativeTarget "LazyVStackExamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520DE40624BD025100D763CA /* Debug */,
+				520DE40724BD025100D763CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		520DE40824BD025100D763CA /* Build configuration list for PBXNativeTarget "LazyVStackExamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520DE40924BD025100D763CA /* Debug */,
+				520DE40A24BD025100D763CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 520DE3D524BD024F00D763CA /* Project object */;
+}
